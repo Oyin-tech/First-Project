@@ -1,0 +1,82 @@
+body {
+  background-color: #0b0d17;
+  background-image: url(images/Bitmap\ 2.png);
+  background-size: cover;
+  color: white;
+}
+.tech-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.line-navbar {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+.nav-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex: 0.7;
+  padding: 1rem 0;
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.09);
+}
+.line-navbar hr {
+  flex: 0.29;
+  align-self: center;
+  margin-right: -2rem;
+  opacity: 25.15%;
+}
+.major-content {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+}
+.buton-wordings-image-div {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 1.5rem;
+}
+.button button {
+  padding: 18px 25px;
+  border-radius: 100%;
+  border: 1px solid yellow;
+  font-size: 1.8rem;
+}
+.wordings {
+  border: 1px solid royalblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.terminology {
+  font-size: 1rem;
+}
+.launch {
+  font-size: 56px;
+  margin: 0;
+}
+.launch-story {
+  border: 1px solid violet;
+  font-size: 18px;
+  max-width: 27.75rem;
+}
+.image {
+  /* display: flex;
+  flex-direction: row;
+  justify-self: flex-end; */
+}
