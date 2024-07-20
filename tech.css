@@ -159,6 +159,9 @@ body {
   }
 }
 @media screen and (max-width: 767px) {
+  .navbar-container {
+    padding: 0 10px 0 10px;
+  }
   .nav-links-container {
     opacity: 0;
   }
