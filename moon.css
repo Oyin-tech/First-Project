@@ -98,14 +98,14 @@ body {
   font-size: 6.25rem;
 }
 .planet-nav {
-  /* border: 1px solid green; */
+  border: 1px solid green;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   list-style-type: none;
   width: 100%;
   max-width: 17.8rem;
   gap: 1rem;
+  padding: 0;
 }
 
 /* .planet-nav li {
@@ -147,6 +147,7 @@ body {
     align-items: center;
     max-width: 100%;
   }
+
   .planet-nav {
     align-items: center;
     justify-content: center;
@@ -180,5 +181,8 @@ body {
   .distance-travel-time {
     flex-direction: column;
     gap: 0.5rem;
+  }
+  .planet-nav {
+    max-width: 100%;
   }
 }
