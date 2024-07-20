@@ -9,6 +9,7 @@ body {
   padding: 2rem;
   background-color: #0b0d17;
   min-height: 100vh;
+  padding: 1rem 0 0 3rem;
 }
 .nav-container {
   /* border: 1px solid red; */
@@ -40,7 +41,7 @@ body {
   align-items: stretch;
   justify-content: space-around;
   list-style-type: none;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   flex: 0.7;
   background-color: rgba(255, 255, 255, 0.09);
 }
@@ -139,9 +140,10 @@ body {
   .nav-container {
     align-items: center;
   }
-  .nav-links-container {
-    display: none;
+  .nav-links {
+    font-size: 14px;
   }
+
   .image-content-container {
     flex-direction: column;
     align-items: center;
@@ -151,7 +153,7 @@ body {
   .planet-nav {
     align-items: center;
     justify-content: center;
-    max-width: 82%;
+    max-width: 100%;
   }
 
   .moon-word {
@@ -166,23 +168,28 @@ body {
   .minor-content {
     text-align: center;
   }
-  .hamburger {
-    display: flex;
-  }
-  .hamburger span {
-    display: block;
-  }
+
   .distance-travel-time {
     justify-content: space-around;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  .nav-links-container {
+    display: none;
+  }
+
   .distance-travel-time {
     flex-direction: column;
     gap: 0.5rem;
   }
   .planet-nav {
     max-width: 100%;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hamburger span {
+    display: block;
   }
 }
