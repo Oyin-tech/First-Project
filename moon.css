@@ -181,6 +181,9 @@ body {
   .nav-links-container {
     display: none;
   }
+  .moon {
+    max-width: 150px;
+  }
 
   .distance-travel-time {
     flex-direction: column;
